@@ -15,4 +15,11 @@ class seseorang
 class joko : public seseorang
 {
     public: 
+        //virtual void pesan() = 0;
+        void pesan()
+        {
+            cout << "Pesan dari joko" << endl;
+        }
+};
+
 
